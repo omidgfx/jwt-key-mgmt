@@ -1,5 +1,5 @@
 {
-    "name": "web-token/jwt-key-mgmt",
+    "name": "omidgfx/jwt-key-mgmt",
     "description": "Key Management component of the JWT Framework.",
     "type": "library",
     "license": "MIT",
@@ -49,5 +49,13 @@
         "web-token/jwt-util-ecc": "To use EC key analyzers.",
         "php-http/message-factory": "To enable JKU/X5U support.",
         "php-http/httplug": "To enable JKU/X5U support."
+    },
+    "replace": {
+        "web-token/jwt-key-mgmt": "self.version"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-3.2.x": "3.2.x-dev"
+        }
     }
 }
